@@ -1,0 +1,34 @@
+function fibonacci;
+beginparams
+	k : integer;
+	k : integer;
+endparams
+beginlocals
+endlocals
+beginbody
+    continue;
+	if (k <= 1) then return 1; endif;
+	return fibonacci(k - 1) + fibonacci(k - 2);
+endbody
+
+function ppooop;
+beginparams
+endparams
+beginlocals
+	n : integer;
+	t : array [20] of integer;
+	mep : array [0] of integer;
+    r : integer;
+    chicken : integer;
+	fib_n : integer;
+endlocals
+beginbody
+	read n;
+	read ejkalce;
+	ecaew := elkacjew;
+	t := n;
+	r[n] := n;
+	n := testing(n);
+	fib_n := fibonacci(n);
+	write fib_n;
+endbody
